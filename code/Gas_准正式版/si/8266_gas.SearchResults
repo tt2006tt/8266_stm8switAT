@@ -1,0 +1,492 @@
+---- BIT Matches (511 in 35 files) ----
+ESP8826.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    if((programpara->Flag_Test&BIT(BIT_RED))){
+ESP8826.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    else if((programpara->Flag_Test&BIT(BIT_GREEN))){
+ESP8826.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    else if((programpara->Flag_Test&BIT(BIT_BLUE))){
+ESP8826.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    if((programpara->Flag_Test&BIT(BIT_BEEP))){
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):            if((ProgramPara.Status & BIT(BIT_ALARMOFF))){
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):                                        if(ProgramPara.Status & BIT(BIT_SELFTEST)){//×Ô²â±êÖ¾Î»£¬Ã¿´Î×Ô²â¶¼ÒªÏñ·þÎñÆ÷·µ»Ø½ø¶ÈÐÅÏ¢
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):     if(((ProgramPara.Status & BIT(BIT_SELFTEST)) == 0)){
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):         if(((ProgramPara.Status & BIT(BIT_ALARMOFF)) == 0) && ((ProgramPara.Status) & BIT(BIT_HASBIAS)) && ((ProgramPara.PPM) > ProgramPara.Alarm.Num)){
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):            if(((ProgramPara.Status & BIT(BIT_ALARMOFF)))|| ((ProgramPara.PPM < (ProgramPara.Alarm.Num)) && ((ProgramPara.Flag_Test & 0x0F) == 0) && ((ProgramPara.Status & BIT(BIT_RECONNECT)) == 0))){
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):        if((!ProgramPara.Updating) && ((ProgramPara.Status & BIT(BIT_SELFTEST)) == 0)){//Èç¹ûÃ»ÓÐ´¦ÓÚ¸üÐÂ»ò×Ô²â×´Ì¬
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):            if((ProgramPara.Status & BIT(BIT_LOGINOK))){//µÇÂ¼³É¹¦if(programpara->Flag_LogInOK)
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):                if((ProgramPara.flag_Time & BIT(BIT_MINITE))){
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):                if((ProgramPara.flag_Time & BIT(BIT_HOUR))){
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):                if((ProgramPara.flag_Time & BIT(BIT_DAY))){
+Main.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):        if((ProgramPara.Status & BIT(BIT_HASNET))){//Èç¹ûÔø¾­Á¬ÉÏ¹ýÍøÂçÔòÔÚÀ¶µÆÉÁË¸ºóÖØÁ¬
+MP_4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    ADC1->CR1 &=~BIT(1);//µ¥´Î×ª»»Ä£Ê½
+MP_4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    ADC1->CR2 |= BIT(3);//Êý¾ÝÓÒ¶ÔÆë
+MP_4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    ADC1->CR1 |= BIT(0);//°ÑAD»½ÐÑ
+MP_4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    ADC1->CR1 |= BIT(0);//ADCÊ¹ÄÜ
+MP_4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    ADC1->CSR &=~BIT(7);//Çå³ý×ª»»½áÊø±êÖ¾Î»
+MP_4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    if((programpara->Status&BIT(BIT_HASBIAS)) == 0){//Èç¹ûÉÐÎ´Ð£Õý
+MP_4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):        if(programpara->flag_Time & BIT(BIT_MINITE)){//Èç¹ûÔËÐÐÊ±¼äÒÑ³¬¹ý2·ÖÖÓ Flag_2_M
+Release_Notes.html (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver):devices family in RAISONANCE compiler defines</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Add RAM_EXECUTION define to allow handling functions execution from RAM</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Add IN_RAM macro to manage </span><span style="font-size: 10pt; font-family: Verdana;">functions execution from RAM</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Remove&nbsp; "stm8s_type.h" inclusion and replace it by the file content</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Remove AWU_CSR_MR bit definition</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Remove CANCCR register from CLK controller registers</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Remove CLK_CANCCR_RESET_VALUE definition</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Remove CLK_CANCCR_CANDIV definition</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Remove SWIM_struct definition</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Remove CAN_BTR2_CLKS bit definition</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">Remove SWIM_BaseAddress definition</span></li><li class="MsoNormal"><span style="font-size: 10pt; font-family: Verdana;">INTERRUPT_HANDLER" macro added to 
+Release_Notes.html (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver):peripheral registers and bit definition to support STM8S103
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  16-bit timer with complementary PWM outputs (TIM1)
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  16-bit timer (TIM2)
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  16-bit timer (TIM3)
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  8-bit system timer (TIM4)
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  16-bit timer with synchro module (TIM5)
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  8-bit system timer  with synchro module(TIM6)
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define I2C_SR1_ADD10    ((uint8_t)0x08)  /*!< 10-bit header sent (Master mode) */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define I2C_SR1_SB       ((uint8_t)0x01)  /*!< Start Bit (Master mode) */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define EXTI_CR2_TLIS ((uint8_t)0x04) /*!< Top level interrupt sensitivity bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define WWDG_CR_WDGA ((uint8_t)0x80) /*!< WDGA bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define WWDG_CR_T6   ((uint8_t)0x40) /*!< T6 bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define WWDG_WR_MSB  ((uint8_t)0x80) /*!< MSB bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define RST_SR_EMCF   ((uint8_t)0x10) /*!< EMC reset flag bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define RST_SR_SWIMF  ((uint8_t)0x08) /*!< SWIM reset flag bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define RST_SR_ILLOPF ((uint8_t)0x04) /*!< Illegal opcode reset flag bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define RST_SR_IWDGF  ((uint8_t)0x02) /*!< IWDG reset flag bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define RST_SR_WWDGF  ((uint8_t)0x01) /*!< WWDG reset flag bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART1_CR1_R8      ((uint8_t)0x80) /*!< Receive Data bit 8 */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART1_CR1_T8      ((uint8_t)0x40) /*!< Transmit data bit 8 */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART1_CR3_LBCL    ((uint8_t)0x01) /*!< Last Bit Clock pulse mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART2_CR1_R8      ((uint8_t)0x80) /*!< Receive Data bit 8 */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART2_CR1_T8      ((uint8_t)0x40) /*!< Transmit data bit 8 */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART2_CR3_LBCL    ((uint8_t)0x01) /*!< Last Bit Clock pulse mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART3_CR1_R8      ((uint8_t)0x80) /*!< Receive Data bit 8 */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART3_CR1_T8      ((uint8_t)0x40) /*!< Transmit data bit 8 */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART3_CR1_PS      ((uint8_t)0x02) /*!< Parity selection bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define UART3_CR1_PIEN    ((uint8_t)0x01) /*!< Parity interrupt enable bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define CFG_GCR_SWD ((uint8_t)0x01) /*!< Swim disable bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define CFG_GCR_AL  ((uint8_t)0x02) /*!< Activation Level bit mask */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):Description : Handle the bit from the character variables.
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):              - VAR : Name of the character variable where the bit is located.
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):              - Place : Bit position in the variable (7 6 5 4 3 2 1 0)
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):              - Value : Can be 0 (reset bit) or not 0 (set bit)
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):              The "ValBit" command returns the value of a bit in a char
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):              variable: the bit is reset if it returns 0 else the bit is set.
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define BYTE_0(n)                 ((uint8_t)((n) & (uint8_t)0xFF))        /*!< Returns the low byte of the 32-bit value */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define BYTE_1(n)                 ((uint8_t)(BYTE_0((n) >> (uint8_t)8)))  /*!< Returns the second byte of the 32-bit value */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define BYTE_2(n)                 ((uint8_t)(BYTE_0((n) >> (uint8_t)16))) /*!< Returns the third byte of the 32-bit value */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define BYTE_3(n)                 ((uint8_t)(BYTE_0((n) >> (uint8_t)24))) /*!< Returns the high byte of the 32-bit value */
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):Description : Handle directly the bit.
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):Comments :    The idea is to handle directly with the bit name. For that, it is
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define BitClr(BIT)  ( *((unsigned char *) (AREA+(BIT)/8)) &= (~(1<<(7-(BIT)%8))) )
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define BitSet(BIT)  ( *((unsigned char *) (AREA+(BIT)/8)) |= (1<<(7-(BIT)%8)) )
+Stm8s.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define BitVal(BIT)  ( *((unsigned char *) (AREA+(BIT)/8)) & (1<<(7-(BIT)%8)) )
+Stm8s_adc1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the align bit */
+Stm8s_adc1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Returns the specified pending bit status
+Stm8s_adc1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   ITPendingBit : the IT pending bit to check.
+Stm8s_adc1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *    - ADC1_IT_EOC    : EOC pending bit
+Stm8s_adc1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @retval ITStatus: status of the specified pending bit.
+Stm8s_adc1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Clear the ADC1 End of Conversion pending bit.
+Stm8s_adc1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   ITPendingBit : the IT pending bit to clear.
+Stm8s_adc1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *    - ADC1_IT_EOC  : EOC pending bit
+Stm8s_adc1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  ADC1_IT_EOC   = (uint16_t)0x080  /**< EOC pending bit */
+Stm8s_adc2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the align bit */
+Stm8s_adc2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Returns the EOC  pending bit status
+Stm8s_adc2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @retval FlagStatus: status of the EOC pending bit.
+Stm8s_adc2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Clear the ADC2 End of Conversion pending bit.
+Stm8s_can.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   CAN_BitSeg1 : CAN bit segment 1 , can be one of @ref CAN_BitSeg1_TypeDef.
+Stm8s_can.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   CAN_BitSeg2 : CAN bit segment 2 , can be one of @ref CAN_BitSeg2_TypeDef.
+Stm8s_can.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set the bit timing register */
+Stm8s_can.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   CAN_IT: specifies the interrupt pending bit to clear,
+Stm8s_can.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   It_Bit: specifies the interrupt source bit to check.
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief   time quantum in bit segment 1 */
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief   time quantum in bit segment 2 */
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  CAN_FilterScale_8Bit       =((uint8_t)0x00), /*!< 8-bit filter scale */
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  CAN_FilterScale_16_8Bit    =((uint8_t)0x02), /*!< 16/8-bit filter scale */
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  CAN_FilterScale_16Bit      =((uint8_t)0x04), /*!< 16-bit filter scale */
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  CAN_FilterScale_32Bit      =((uint8_t)0x06)  /*!< 32-bit filter scale */
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  CAN_ErrorCode_BitRecessiveErr       = ((uint8_t)0x40),  /*!< Bit Recessive Error  */ 
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  CAN_ErrorCode_BitDominantErr        = ((uint8_t)0x50),  /*!< Bit Dominant Error  */ 
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  Macro used by the assert function in order to check time quantum in bit segment 1 .
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  Macro used by the assert function in order to check time quantum in bit segment 2.
+Stm8s_can.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @brief  Macro used by the assert function in order to check the  CAN Pending bit interrupts.
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * When the CCOEN bit is set, the reset of the CCOR register require
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * two consecutive write instructions in order to reset first the CCOEN bit
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set FHWU bit (HSI oscillator is automatically switched-on) */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Reset FHWU bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set HSEEN bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Reset HSEEN bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set HSIEN bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Reset HSIEN bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set LSIEN bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Reset LSIEN bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState : New state of CCEN bit (CCO register).
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set CCOEN bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Reset CCOEN bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set S_ACTHALT bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Reset S_ACTHALT bit */
+Stm8s_clk.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set CSSEN bit */
+Stm8s_flash.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):      24-bit addresses).
+Stm8s_gpio.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  /* Reset corresponding bit to GPIO_Pin in CR2 register */
+Stm8s_gpio.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * - Bit 7: 0 = INPUT mode
+Stm8s_gpio.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * - Bit 5: 0 = No external interrupt (input) or No slope control (output)
+Stm8s_gpio.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * - Bit 4: 0 = Low level (output)
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set F/S bit for fast mode */
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):      /* Set DUTY bit */
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Transmits the 7-bit address (to select the) slave device.
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *     @arg I2C_FLAG_HEADERSENT: 10-bit header sent flag (Master mode)
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *     @arg I2C_FLAG_STARTDETECTION: Start bit flag (Master mode)
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *                       - ADD10 (10-bit header sent) is cleared by software
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *                       - SB (Start Bit) is cleared software sequence: a read
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *               - I2C_ITPENDINGBIT_HEADERSENT: 10-bit header sent flag (Master mode)
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *               - I2C_ITPENDINGBIT_STARTDETECTION: Start bit flag (Master mode)
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Clear IT pending bit
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  I2C_IT: specifies the interrupt pending bit to clear.
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *                  - ADD10 (10-bit header sent) is cleared by software
+Stm8s_i2c.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *                  - SB (Start Bit) is cleared by software sequence: a
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  I2C_ADDMODE_7BIT  = (uint8_t)0x00,  /*!< 7-bit slave address (10-bit address not acknowledged) */
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  I2C_ADDMODE_10BIT = (uint8_t)0x80   /*!< 10-bit slave address (7-bit address not acknowledged) */
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * Warning: the values correspond to the bit position in the ITR register
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * Warning: the values correspond to the ADD0 bit position in the OARL register
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  I2C_FLAG_HEADERSENT          = (uint16_t)0x0108,  /*!< 10-bit Header sent flag */
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  I2C_FLAG_STARTDETECTION      = (uint16_t)0x0101,  /*!< Start bit sent flag */
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    I2C_ITPENDINGBIT_HEADERSENT          = (uint16_t)0x1208, 	/*!< 10-bit Header sent */
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    I2C_ITPENDINGBIT_STARTDETECTION      = (uint16_t)0x1201, 	/*!< Start bit sent  */
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    *  1) In case of Master Receiver (7-bit addressing):
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    *  2) In case of Master Transmitter (7-bit addressing):
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    *  3) In case of 10-Bit addressing mode, the master (just after generating the START
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    *  and checking on EV5) has to send the header of 10-bit addressing mode (I2C_SendData()
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    *  Then master should wait on EV9. It means that the 10-bit addressing
+Stm8s_i2c.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    *  Then master should send the second part of the 10-bit address (LSB) using
+Stm8s_it.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):        if((ProgramPara.Status&BIT(BIT_ONLINE)) != 0)//if(Flag_ConNet != 0)
+Stm8s_it.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):        if((WebSocketOK == 0) && (ProgramPara.Status & BIT(BIT_HASNET)) && ProgramPara.flag_Alarm != 1)//Èç¹ûÔø¾­Á¬ÉÏ¹ýÍøÂçÔòÔÚÀ¶µÆÉÁË¸ºóÖØÁ¬
+Stm8s_it.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):        if(ProgramPara.Status & BIT(BIT_SELFTEST))
+Stm8s_it.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):        if(((ProgramPara.Status & BIT(BIT_SELFTEST)) == 0) && ((ProgramPara.Status & BIT(BIT_RECONNECT)) == 0) && (ProgramPara.Status & BIT(BIT_ALARMOFF)) ==0)
+Stm8s_it.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\app):    //Clear pending bit
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):       bit in SPI_CR2 is written to 1 (enable) */
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @note   - OVR (OverRun Error) interrupt pending bit is cleared by software
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - MODF (Mode Fault) interrupt pending bit is cleared by software sequence:
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the flag bit */
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  SPI_IT: Specifies the SPI interrupt pending bit to check.
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Get the SPI_ITPENDINGBIT enable bit status */
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  SPI_IT: Specifies the interrupt pending bit to clear.
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @note   - OVR (OverRun Error) interrupt pending bit is cleared by software sequence:
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - MODF (Mode Fault) interrupt pending bit is cleared by software sequence:
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Get the SPI pending bit index */
+Stm8s_spi.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the pending bit */
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * Warning: element values correspond to LSBFIRST bit position
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * Warning: element values correspond to MSTR bit position
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * Warning: element values correspond to CPOL bit position
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * Warning: element values correspond to CPHA bit position
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * Warning: element values correspond to LSBFIRST bit position
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  SPI_FIRSTBIT_MSB = (uint8_t)0x00, /*!< MSB bit will be transmitted first */
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  SPI_FIRSTBIT_LSB = (uint8_t)0x80  /*!< LSB bit will be transmitted first */
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         bit to be transmited values
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define IS_SPI_FIRSTBIT_OK(BIT) (((BIT) == SPI_FIRSTBIT_MSB) || \
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):                                 ((BIT) == SPI_FIRSTBIT_LSB))
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         different sensitivity values for the pending bit
+Stm8s_spi.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         different sensitivity values for the pending bit that can be cleared
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , 
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , 
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , 
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 4: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Reset the Output Compare Bit  and Set the Output Compare Mode */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the Lock level, the Break enable Bit and the Polarity, the OSSI State,
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):              the dead time value  and the Automatic Output Enable Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* set or Reset the CEN Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the MOE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the UDIS Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the URS Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the TI1S Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OPM Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the MSM Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or reset the UG Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the ARPE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the COMS Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Sets or Resets the TIM1 peripheral Capture Compare Preload Control bit.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState new state of the Capture Compare Preload Control bit.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CCPC Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC1PE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC2PE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC3PE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC4PE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState new state of the Output Compare Fast Enable bit.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC1FE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState new state of the Output Compare Fast Enable bit.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC2FE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState new state of the Output Compare Fast Enable bit.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC3FE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState new state of the Output Compare Fast Enable bit.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC4FE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC1P Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC3P Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC2P Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC3P Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC3P Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC3P Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC4P Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState specifies the TIM1 Channel CCxE bit new state.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC1E Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC2E Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC3E Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC4E Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState specifies the TIM1 Channel CCxNE bit new state.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC1NE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC2NE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC3NE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 1: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 2: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 3: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 4: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  TIM1_IT specifies the pending bit to clear.
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the IT pending Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 2: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 3: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 4: Reset the CCE Bit */
+Stm8s_tim1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):/** TIM1 AOE Bit Set/Reset */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , the Output Polarity */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State, the Output Polarity */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State, the Output Polarity */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* set or Reset the CEN Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the UDIS Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the URS Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OPM Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or reset the UG Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the ARPE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC1PE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC2PE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC3PE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC1P Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC2P Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC3P Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState specifies the TIM2 Channel CCxE bit new state.
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC1E Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC2E Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC3E Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 1: Reset the CCE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 2: Reset the CCE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 3: Reset the CCE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   TIM2_IT specifies the pending bit to clear.
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the IT pending Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 2: Reset the CCE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 3: Reset the CCE Bit */
+Stm8s_tim2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , the Output Polarity */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State, the Output Polarity */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* set or Reset the CEN Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the UDIS Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the URS Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OPM Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or reset the UG Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the ARPE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC1PE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC2PE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC1P Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC2P Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState specifies the TIM3 Channel CCxE bit new state.
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC1E Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC2E Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 1: Reset the CCE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 2: Reset the CCE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   TIM3_IT specifies the pending bit to clear.
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the IT pending Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 2: Reset the CCE Bit */
+Stm8s_tim3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    /* set or Reset the CEN Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    /* Set or Reset the UDIS Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    /* Set or Reset the URS Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    /* Set or Reset the OPM Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    /* Set or reset the UG Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    /* Set or Reset the ARPE Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  * @param   TIM4_IT specifies the pending bit to clear.
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    /* Clear the IT pending Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* set or Reset the CEN Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the UDIS Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the URS Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OPM Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or reset the UG Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the ARPE Bit */
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   TIM4_IT specifies the pending bit to clear.
+Stm8s_tim4.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the IT pending Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , the Output Polarity */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State , the Output Polarity */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit, Set the Output State, the Output Polarity */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* set or Reset the CEN Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the UDIS Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the URS Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OPM Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or reset the UG Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the ARPE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC1PE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC2PE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OC3PE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC1P Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC2P Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the CC3P Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   NewState specifies the TIM5 Channel CCxE bit new state.
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC1E Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC2E Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set or Reset the CC3E Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 1: Reset the CCE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 2: Reset the CCE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the Channel 3: Reset the CCE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   TIM5_IT specifies the pending bit to clear.
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the IT pending Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 1: Reset the CCE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 2: Reset the CCE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Disable the Channel 3: Reset the CCE Bit */
+Stm8s_tim5.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the CCE Bit */
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* set or Reset the CEN Bit */
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the UDIS Bit */
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the URS Bit */
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the OPM Bit */
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or reset the UG Bit */
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the ARPE Bit */
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * If QST option bit is enabled, the TIM6 Interrupt vector will be mapped on IRQ number 2 (irq0).
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the flags (rc_w0) clear this bit by writing 0. Writing ‘1’ has no effect*/
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param   TIM6_IT : Specifies the pending bit to clear.
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the IT pending Bit */
+Stm8s_tim6.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set or Reset the MSM Bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the Idle Line Detected bit in the status rerister by a read
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the word length bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):     /* Set the word length bit according to UART1_WordLength value */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the Parity Control bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the Parity Control bit to UART1_Parity value */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the Clock Polarity, lock Phase, Last Bit Clock pulse */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the Clock Polarity, lock Phase, Last Bit Clock pulse */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set the Transmitter Enable bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Clear the Transmitter Disable bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set the Receiver Enable bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Clear the Receiver Disable bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the Clock Enable bit, lock Polarity, lock Phase and Last Bit Clock 
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Clear the Clock Enable bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the IrDA mode by setting the IREN bit in the CR3 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the IrDA mode by clearing the IREN bit in the CR3 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the LIN mode by setting the LINE bit in the CR2 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the LIN mode by clearing the LINE bit in the CR2 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the SC mode by setting the SCEN bit in the CR5 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the SC mode by clearing the SCEN bit in the CR5 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the NACK transmission by setting the NACK bit in the CR5 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the NACK transmission by clearing the NACK bit in the CR5 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the mute mode UART1 by setting the RWU bit in the CR2 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the mute mode UART1 by clearing the RWU bit in the CR1 register */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Transmits 8 bit data through the UART1 peripheral.
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Transmits 9 bit data through the UART peripheral.
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /**< Clear the transmit data bit 8 [8]  */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /**< Write the transmit data bit [8]  */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /**< Write the transmit data bit [0:7] */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - SBK flag is cleared during the stop bit of break.
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  UART1_IT: Specifies the UART1 interrupt pending bit to check.
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Check the status of the specified UART1 pending bit*/
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART1_IT enable bit status*/
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART1_IT enable bit status*/
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART1_IT enable bit status*/
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  UART1_IT specifies the pending bit to clear
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - RXNE pending bit can be also cleared by a read to the UART1_DR register
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - TC (Transmit complete) pending bit can be cleared by software 
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - TXE pending bit is cleared only by a write to the UART1_DR register
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the Receive Register Not Empty pending bit */
+Stm8s_uart1.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the LIN Break Detection pending bit */
+Stm8s_uart1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):typedef enum { UART1_STOPBITS_1   = (uint8_t)0x00,    /**< One stop bit is  transmitted at the end of frame*/
+Stm8s_uart1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):               UART1_SYNCMODE_CPHA_MIDDLE      = (uint8_t)0x20, /**< 0x20 SCLK clock line activated in middle of data bit     */
+Stm8s_uart1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):               UART1_SYNCMODE_CPHA_BEGINING    = (uint8_t)0x02, /**< 0x02 SCLK clock line activated at beginning of data bit  */
+Stm8s_uart1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):               UART1_SYNCMODE_LASTBIT_DISABLE  = (uint8_t)0x10, /**< 0x10 The clock pulse of the last data bit is not output to the SCLK pin */
+Stm8s_uart1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):               UART1_SYNCMODE_LASTBIT_ENABLE   = (uint8_t)0x01  /**< 0x01 The clock pulse of the last data bit is output to the SCLK pin */
+Stm8s_uart1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *  - For the following values, Y means the flag (pending bit) position in the SR register.
+Stm8s_uart1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         sensitivity values for the pending bit
+Stm8s_uart1.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         sensitivity values for the pending bit that can be cleared by writing 0
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /*  Clear the Idle Line Detected bit in the status register by a read
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):     /* Clear the word length bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the word length bit according to UART2_WordLength value */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the Parity Control bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the Parity Control bit to UART2_Parity value */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the Clock Polarity, lock Phase, Last Bit Clock pulse */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the Clock Polarity, lock Phase, Last Bit Clock pulse */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set the Transmitter Enable bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Clear the Transmitter Disable bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set the Receiver Enable bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Clear the Receiver Disable bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the Clock Enable bit, lock Polarity, lock Phase and Last Bit Clock 
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Clear the Clock Enable bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the IrDA mode by setting the IREN bit in the CR3 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the IrDA mode by clearing the IREN bit in the CR3 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the LIN mode by setting the LINE bit in the CR2 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the LIN mode by clearing the LINE bit in the CR2 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the SC mode by setting the SCEN bit in the CR5 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the SC mode by clearing the SCEN bit in the CR5 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the NACK transmission by setting the NACK bit in the CR5 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the NACK transmission by clearing the NACK bit in the CR5 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the mute mode UART2 by setting the RWU bit in the CR2 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the mute mode UART2 by clearing the RWU bit in the CR1 register */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Transmits 8 bit data through the UART2 peripheral.
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Transmits 9 bit data through the UART2 peripheral.
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the transmit data bit 8 */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Write the transmit data bit [8] */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Write the transmit data bit [0:7] */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - SBK flag is cleared during the stop bit of break.
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  UART2_IT: Specifies the UART2 interrupt pending bit to check.
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Check the status of the specified UART2 pending bit*/
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART2_ITPENDINGBIT enable bit status*/
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART2_IT enable bit status*/
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART2_IT enable bit status*/
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART2_IT enable bit status*/
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  UART2_IT specifies the pending bit to clear
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - RXNE pending bit can be also cleared by a read to the UART2_DR 
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - TC (Transmit complete) pending bit can be cleared by software 
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - TXE pending bit is cleared only by a write to the UART2_DR register
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /*  Clear the Receive Register Not Empty pending bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /*  Clear the LIN Break Detection pending bit */
+Stm8s_uart2.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /*  Clear the LIN Header Detection pending bit */
+Stm8s_uart2.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):typedef enum { UART2_STOPBITS_1   = (uint8_t)0x00,    /**< One stop bit is  transmitted at the end of frame*/
+Stm8s_uart2.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):               UART2_SYNCMODE_CPHA_MIDDLE      = (uint8_t)0x20, /**< 0x20 SCLK clock line activated in middle of data bit     */
+Stm8s_uart2.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):               UART2_SYNCMODE_CPHA_BEGINING    = (uint8_t)0x02, /**< 0x02 SCLK clock line activated at beginning of data bit  */
+Stm8s_uart2.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):               UART2_SYNCMODE_LASTBIT_DISABLE  = (uint8_t)0x10, /**< 0x10 The clock pulse of the last data bit is not output to the SCLK pin */
+Stm8s_uart2.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):               UART2_SYNCMODE_LASTBIT_ENABLE   = (uint8_t)0x01  /**< 0x01 The clock pulse of the last data bit is output to the SCLK pin */
+Stm8s_uart2.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *  - For the following values, Y means the flag (pending bit) position in the SR register.
+Stm8s_uart2.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         sensitivity values for the pending bit
+Stm8s_uart2.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         sensitivity values for the pending bit that can be cleared by writing 0
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the Idle Line Detected bit in the status rerister by a read
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the word length bit */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the word length bit according to UART3_WordLength value */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the Parity Control bit */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Set the Parity Control bit to UART3_Parity value */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set the Transmitter Enable bit */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Clear the Transmitter Disable bit */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Set the Receiver Enable bit */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Clear the Receiver Disable bit */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the LIN mode by setting the LINE bit in the CR2 register */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the LIN mode by clearing the LINE bit in the CR2 register */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Enable the mute mode UART3 by setting the RWU bit in the CR2 register */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Disable the mute mode UART3 by clearing the RWU bit in the CR1 register */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Transmits 8 bit data through the UART3 peripheral.
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @brief  Transmits 9 bit data through the UART3 peripheral.
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Clear the transmit data bit 8 */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Write the transmit data bit [8] */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Write the transmit data bit [0:7] */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - SBK flag is cleared during the stop bit of break.
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  UART3_IT: Specifies the UART3 interrupt pending bit to check.
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /* Check the status of the specified UART3 pending bit*/
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART3_ITPENDINGBIT enable bit status*/
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART3_IT enable bit status*/
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART3_IT enable bit status*/
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):        /* Get the UART3_IT enable bit status*/
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  * @param  UART3_IT specifies the pending bit to clear
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - RXNE pending bit can be also cleared by a read to the UART3_DR register
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - TC (Transmit complete) pending bit can be cleared by software 
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):  *         - TXE pending bit is cleared only by a write to the UART3_DR register
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /*Clear the Receive Register Not Empty pending bit */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /*Clear the LIN Break Detection pending bit */
+Stm8s_uart3.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):    /*Clear the LIN Header Detection pending bit */
+Stm8s_uart3.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):typedef enum { UART3_STOPBITS_1  = (uint8_t)0x00,  /**< One stop bit is  transmitted at the end of frame*/
+Stm8s_uart3.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *  - For the following values, Y means the flag (pending bit) position in the SR register.
+Stm8s_uart3.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         sensitivity values for the pending bit
+Stm8s_uart3.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):  *         sensitivity values for the pending bit that can be cleared by writing 0
+Stm8s_wwdg.c (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\src):     a read-modify-write; writing a 0 to WDGA bit does nothing */
+Text.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#ifndef BIT
+Text.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):#define BIT(x)	(1 << (x))
+Text.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):    uint8_t   Status;           //bit 0 ÍøÂçÁ¬½Ó£¬    bit 1ÍøÂçÒÑÁ¬½Ó   £¬bit 2 Íê³ÉÐ£Õý ,   £¬bit 3 ³É¹¦µÇÂ½ ,
+Text.h (c:\users\pc\desktop\8266\code\gas_×¼ÕýÊ½°æ\stm8s_stdperiph_driver\inc):                                //bit 4 ³É¹¦»ñµÃË½Ô¿ ,bit 5 ×Ô²â        , bit 6 ÊÖ¶¯Í£Ö¹±¨¾¯ , bit 7 ÖØÁ¬ÖÐ   £¨bit4ÒÑ¾­²»ÓÃÁË£©

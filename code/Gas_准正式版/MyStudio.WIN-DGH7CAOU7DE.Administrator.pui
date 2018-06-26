@@ -1,0 +1,44 @@
+[Open Files]
+Open File Line0=1978
+Open File Line1=9434
+Open File Line2=24906
+Open File Line3=6461
+Open File Line4=15405
+Open File Line5=6461
+Open File Pos0=2096
+Open File Pos1=10156
+Open File Pos2=26266
+Open File Pos3=7806
+Open File Pos4=15999
+Open File Pos5=8103
+Open File Window Pos0=2,3,-1,-1,-8,-30,25,25,920,595
+Open File Window Pos1=0,1,-1,-1,-8,-30,50,50,945,622
+Open File Window Pos2=0,1,-1,-1,-8,-30,75,75,970,647
+Open File Window Pos3=0,1,-1,-1,-8,-30,100,100,995,672
+Open File Window Pos4=0,1,-1,-1,-8,-30,125,125,1020,697
+Open File Window Pos5=0,1,-1,-1,-8,-30,0,0,970,411
+Open File0=E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\05_Lesson5_STM8S_UART\Lesson5\APP\main.c
+Open File1=E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\05_Lesson5_STM8S_UART\Lesson5\APP\stm8s_it.c
+Open File2=E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\05_Lesson5_STM8S_UART\Lesson5\STM8S_StdPeriph_Driver\src\stm8s_uart1.c
+Open File3=E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\03_Lesson3_STM8S_Clock\Lesson3\STM8S_StdPeriph_Driver\inc\stm8s_uart1.h
+Open File4=E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\02_Lesson2_STM8S_GPIO\Lesson2\STM8S_StdPeriph_Driver\src\stm8s_uart1.c
+Open File5=E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\02_Lesson2_STM8S_GPIO\Lesson2\STM8S_StdPeriph_Driver\inc\stm8s_uart1.h
+Open File6=
+Remember Files=1
+活动文件索引=0
+活动文件显示模式=3
+
+[Project Information]
+Project Start=DF07040000000C0016001B002100000048
+Working Time=10929
+
+[Folders]
+..\ - 05_Lesson5_STM8S_UART=1
+..\ - 05_Lesson5_STM8S_UART - Lesson5=1
+..\ - 05_Lesson5_STM8S_UART - Lesson5 - APP=1
+..\ - 05_Lesson5_STM8S_UART - Lesson5 - STM8S_StdPeriph_Driver=1
+..\ - 05_Lesson5_STM8S_UART - Lesson5 - STM8S_StdPeriph_Driver - inc=1
+..\ - 05_Lesson5_STM8S_UART - Lesson5 - STM8S_StdPeriph_Driver - src=1
+..\ - Software=1
+..\=1
+..\ - Program Files (x86)=1

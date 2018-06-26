@@ -1,0 +1,97 @@
+[DebugChecksum]
+Checksum=147608469
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[BreakpointUsageDialog]
+Placement=_ 527 293 972 575
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\APP\stm8s_it.c}.729.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{}.374.1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{}.88.1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{}.374.1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{}.263.13" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{}.85.17" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{}.94.21" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{}.227.13" 0 0 0 0 "" 0 ""
+Count=8
+[Aliases]
+A0=_ "E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\05_Lesson5_STM8S_UART\Lesson5\APP\main.c" ""
+A1=_ "E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\05_Lesson5_STM8S_UART\Lesson5\STM8S_StdPeriph_Driver\src\stm8s_gpio.c" ""
+A2=_ "E:\01_SVNServer\Workspace\branches\06_芯连心嵌入式工作室\01_STM8S\05_Lesson5_STM8S_UART\Lesson5\STM8S_StdPeriph_Driver\src\stm8s_uart1.c" ""
+A3=_ "E:\Return_Work\燃气报警\Gas_准正式版\APP\key.c" ""
+A4=_ "F:\1121临时文件\2017燃气报警\燃气项目_根据uart改\Gas_alarm\Lesson5\APP\main.c" ""
+A5=_ "F:\1121临时文件\2017燃气报警\燃气项目_根据uart改\Gas_alarm\Lesson5\STM8S_StdPeriph_Driver\src\stm8s_clk.c" ""
+A6=_ "F:\1121临时文件\2017燃气报警\燃气项目_根据uart改\Gas_alarm\Lesson5\STM8S_StdPeriph_Driver\src\stm8s_flash.c" ""
+A7=_ "F:\1121临时文件\2017燃气报警\燃气项目_根据uart改\Gas_alarm\Lesson5\STM8S_StdPeriph_Driver\src\stm8s_gpio.c" "E:\Return_Work\燃气报警\燃气项目_根据uart改\燃气项目_根据uart改\Gas_alarm\Lesson5\Debug\Exe\Lesson1.out"
+A8=_ "F:\1121临时文件\2017燃气报警\燃气项目_根据uart改\Gas_alarm\Lesson5\STM8S_StdPeriph_Driver\src\stm8s_uart1.c" "E:\Return_Work\燃气报警\燃气项目_根据uart改\燃气项目_根据uart改\Gas_alarm\Lesson5\Debug\Exe\Lesson1.out"
+Count=9
+SuppressDialog=1
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0
